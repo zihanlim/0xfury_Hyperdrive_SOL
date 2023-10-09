@@ -1,0 +1,265 @@
+.grow-carbon-credits {
+  background-color: #e4d8d1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.grow-carbon-credits .overlap-wrapper {
+  background-color: #e4d8d1;
+  height: 932px;
+  overflow: hidden;
+  width: 430px;
+}
+.grow-carbon-credits .overlap {
+  height: 935px;
+  position: relative;
+  width: 432px;
+}
+.grow-carbon-credits .rectangle {
+  height: 932px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+.grow-carbon-credits .div {
+  background-color: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  height: 804px;
+  left: 0;
+  position: absolute;
+  top: 128px;
+  width: 430px;
+}
+.grow-carbon-credits .fury-logo-graphic {
+  height: 120px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 120px;
+}
+.grow-carbon-credits .hamburger {
+  height: 31px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 35px;
+}
+.grow-carbon-credits .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 165px;
+  width: 232px;
+}
+.grow-carbon-credits .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  height: 115px;
+  left: 51px;
+  position: absolute;
+  top: 329px;
+  width: 328px;
+}
+.grow-carbon-credits .text {
+  align-self: stretch;
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+.grow-carbon-credits .span {
+  color: #3ca20c;
+  text-decoration: underline;
+}
+.grow-carbon-credits .text-wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: 20px;
+}
+.grow-carbon-credits .img {
+  height: 50px;
+  left: 100px;
+  position: absolute;
+  top: 483px;
+  width: 230px;
+}
+.grow-carbon-credits .img:hover {
+  opacity: 50%;
+}
+
+.grow-carbon-credits .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 495px;
+  white-space: nowrap;
+  width: 216px;
+}
+.grow-carbon-credits .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 24px;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 299px;
+  width: 328px;
+}
+.grow-carbon-credits .carbon-credit {
+  height: 355px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 577px;
+  width: 355px;
+}
+.grow-carbon-credits .group {
+  background-color: #466e34;
+  border-radius: 10px;
+  height: 40px;
+  left: 312px;
+  position: absolute;
+  top: 166px;
+  width: 90px;
+}
+.grow-carbon-credits .menu-white {
+  height: 8px;
+  left: 25px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 40px;
+}
+
+.grow-carbon-credits .rectangle-2 {
+  background-color: #7e7e7e;
+  height: 85px;
+  left: 143px;
+  position: absolute;
+  top: 847px;
+  width: 144px;
+}
+.grow-carbon-credits .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 897px;
+  width: 109px;
+}
+.grow-carbon-credits .overlap-group-wrapper {
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 847px;
+  width: 145px;
+}
+.grow-carbon-credits .overlap-group {
+  height: 88px;
+  position: relative;
+  width: 143px;
+}
+.grow-carbon-credits .rectangle-3 {
+  background-color: #93c47d;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+.grow-carbon-credits .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 109px;
+}
+.grow-carbon-credits .plant-growth {
+  height: 29px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 24px;
+}
+.grow-carbon-credits .QR-code {
+  height: 30px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 865px;
+  width: 30px;
+}
+.grow-carbon-credits .div-wrapper {
+  height: 88px;
+  left: 287px;
+  position: absolute;
+  top: 847px;
+  width: 145px;
+}
+.grow-carbon-credits .rectangle-4 {
+  background-color: #7e7e7e;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+.grow-carbon-credits .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 109px;
+}
+.grow-carbon-credits .rewards {
+  height: 33px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 30px;
+}

@@ -1,0 +1,37 @@
+/* Add these CSS styles to your component's stylesheet */
+.pin-input {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the input row horizontally */
+
+  }
+  
+  .pin-input__field {
+    width: 40px; /* Set the width of each square box */
+    height: 40px; /* Set the height to match the width for a square */
+    text-align: center;
+    font-size: 18px; /* Adjust the font size as needed */
+    border: 2px solid #ab8644; /* Add a border to the boxes */
+    border-radius: 10px; /* Round the corners slightly */
+    margin: 0 5px; /* Add spacing between the boxes */
+    outline: none; Remove the default focus outline
+
+  }
+  
+  .pin-input__field:focus {
+    border-color: #ab8644; /* Change the border color on focus */
+  }
+  
+/* Style for the slider container */
+.slider {
+  /* justify-content: center; */
+  margin-top: 50px;
+}
+
+.form{
+  position: absolute;
+  justify-content: center;
+  top: 510px;
+  left: 70px;
+}

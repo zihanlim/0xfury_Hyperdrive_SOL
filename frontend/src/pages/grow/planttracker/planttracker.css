@@ -1,0 +1,267 @@
+.grow-plant-tracker {
+  background-color: #e4d8d1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.grow-plant-tracker .overlap-wrapper {
+  background-color: #e4d8d1;
+  height: 932px;
+  overflow: hidden;
+  width: 430px;
+}
+.grow-plant-tracker .overlap {
+  height: 935px;
+  position: relative;
+  width: 432px;
+}
+.grow-plant-tracker .rectangle {
+  height: 932px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+.grow-plant-tracker .div {
+  background-color: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  height: 804px;
+  left: 0;
+  position: absolute;
+  top: 128px;
+  width: 430px;
+}
+.grow-plant-tracker .fury-logo-graphic {
+  height: 120px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 120px;
+}
+.grow-plant-tracker .hamburger {
+  height: 31px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 35px;
+}
+.grow-plant-tracker .rectangle-2 {
+  background-color: #7e7e7e;
+  height: 85px;
+  left: 143px;
+  position: absolute;
+  top: 847px;
+  width: 144px;
+}
+.grow-plant-tracker .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 897px;
+  width: 109px;
+}
+.grow-plant-tracker .group {
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 847px;
+  width: 145px;
+}
+.grow-plant-tracker .overlap-group {
+  height: 88px;
+  position: relative;
+  width: 143px;
+}
+.grow-plant-tracker .rectangle-3 {
+  background-color: #93c47d;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+.grow-plant-tracker .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 109px;
+}
+.grow-plant-tracker .plant-growth {
+  height: 29px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 24px;
+}
+.grow-plant-tracker .QR-code {
+  height: 30px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 865px;
+  width: 30px;
+}
+.grow-plant-tracker .overlap-group-wrapper {
+  height: 88px;
+  left: 287px;
+  position: absolute;
+  top: 847px;
+  width: 145px;
+}
+.grow-plant-tracker .rectangle-4 {
+  background-color: #7e7e7e;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+.grow-plant-tracker .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 109px;
+}
+.grow-plant-tracker .rewards {
+  height: 33px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 30px;
+}
+.grow-plant-tracker .plant {
+  height: 420px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 265px;
+  width: 430px;
+}
+.grow-plant-tracker .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 49px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 716px;
+  width: 328px;
+}
+.grow-plant-tracker .rectangle-5 {
+  background-color: #f29710;
+  border-radius: 18px;
+  height: 50px;
+  left: 49px;
+  position: absolute;
+  top: 777px;
+  width: 185px;
+}
+.grow-plant-tracker .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 37px;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 790px;
+  width: 159px;
+}
+.grow-plant-tracker .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 165px;
+  white-space: nowrap;
+  width: 261px;
+}
+.grow-plant-tracker .i-have-growing {
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 221px;
+  width: 328px;
+}
+.grow-plant-tracker .span {
+  color: #000000;
+}
+.grow-plant-tracker .text-wrapper-7 {
+  color: #64ab44;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.grow-plant-tracker .rectangle-6 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 216px;
+  left: 415px;
+  position: absolute;
+  top: 176px;
+  width: 5px;
+}
+.grow-plant-tracker .heart {
+  height: 31px;
+  left: 339px;
+  object-fit: cover;
+  position: absolute;
+  top: 725px;
+  width: 33px;
+}
+.grow-plant-tracker .menu-white-wrapper {
+  background-color: #466e34;
+  border-radius: 10px;
+  height: 40px;
+  left: 312px;
+  position: absolute;
+  top: 166px;
+  width: 90px;
+}
+.grow-plant-tracker .menu-white {
+  height: 8px;
+  left: 25px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 40px;
+}

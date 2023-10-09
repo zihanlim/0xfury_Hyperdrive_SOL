@@ -1,0 +1,105 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.load {
+	width: 150px;
+	height: 150px;
+	margin: 350px auto 0;
+	border:solid 15px #F29810;
+	border-radius: 50%;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	 -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    	
+    	 transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         1.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
+}
+
+
+.loading-index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .loading-index .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 932px;
+    width: 430px;
+
+  }
+  
+  .loading-index .overlap-group {
+    height: 932px;
+    position: relative;
+  }
+  
+  .loading-index .background {
+    display: block;
+    height: 932px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    width: 430px;
+  }
+    
+  .loading-index .div {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 788px;
+    white-space: nowrap;
+    width: 150px;
+    border: none;
+    background: none;
+    padding: 0;
+  }
+  
+  .loading-index .fury-logo-graphic {
+    height: 120px;
+    /* object-fit: cover; */
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top:10px;
+    left: 153px;
+
+    align-content: center;
+    /* justify-content: center; */
+
+  }
+  
