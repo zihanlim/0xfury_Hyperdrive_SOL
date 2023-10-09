@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import "./loading01.css";
-import LoadingSphere from '../../../assets/LoadingSphere.png';
-import {
-  coreService
-} from '../../../core/service'
+import LoadingSphere from "../../../assets/LoadingSphere.png";
 import { useNavigate } from "react-router-dom";
 
 const Loading = () => {
@@ -15,15 +12,15 @@ const Loading = () => {
   useEffect(() => {
     // const bounce = coreService.setRotateAnimation('.fury-logo-graphic');
 
-    const intervalId = setInterval(()=>{
-      goTo()
-    },2000);
+    const intervalId = setInterval(() => {
+      goTo();
+    }, 2000);
 
     // return () => {
     //   clearInterval(intervalId);
     //   bounce.kill();
     // };
-  }, [])
+  }, []);
   return (
     <div className="loading-index">
       <div className="overlap-group-wrapper">
