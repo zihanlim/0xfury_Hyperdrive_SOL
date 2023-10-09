@@ -15,6 +15,10 @@ const Loading01 = () => {
     const intervalId = setInterval(() => {
       goTo();
     }, 2000);
+    // Clean up the interval when the component unmounts
+    return () => {
+      clearInterval(intervalId);
+    };
   }, []);
 
   return (
