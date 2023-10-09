@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./slider-button.css";
 import { useNavigate } from "react-router-dom";
 
-
 interface SlideToUnlockProps {
   unlockThreshold: number;
   onUnlock: () => void;
@@ -26,7 +25,6 @@ const SlideToUnlock: React.FC<SlideToUnlockProps> = ({
       onUnlock();
       setSliderPosition(0);
       goNext();
-      
     }
   };
 
@@ -44,7 +42,6 @@ const SlideToUnlock: React.FC<SlideToUnlockProps> = ({
       <div className={`unlock-text ${isUnlocked ? "unlocked" : ""}`}>
         {isUnlocked ? "Slide to Continue" : "Slide to Continue"}
       </div>
-      
     </div>
   );
 };
