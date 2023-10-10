@@ -1,6 +1,6 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
-import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill'
+import { NodeGlobalsPolyfillPlugin } from "@esbuild-plugins/node-globals-polyfill";
 
 export default defineConfig({
   plugins: [react()],
@@ -11,9 +11,9 @@ export default defineConfig({
       },
       plugins: [
         NodeGlobalsPolyfillPlugin({
-            buffer: true
-        })
-    ]
+          buffer: true,
+        }),
+      ],
     },
   },
   resolve: {
@@ -22,5 +22,10 @@ export default defineConfig({
       stream: "stream-browserify",
       util: "util",
     },
+  },
+  build: {
+    outDir: "./build",
+    assetsDir: "./build/assets",
+    minify: true,
   },
 });
