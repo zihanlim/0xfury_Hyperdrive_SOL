@@ -1,16 +1,42 @@
-# 0xFury Smart Contract Wallet with Account Abstraction
+# 0xFury Smart Contract Wallet with Account Abstraction and Re-fi
 
 # Project Name
 
-Most of the wealth is stuck in the TradFi owned by our aunties and uncles. They want to invest in the high-yield DeFi but are struggling with the user experience of web3. To make web3 inclusive for everyone, we need to onboard AMAs to the web3 wallet.
+### Fury Wallet
+
+Most of the wealth is stuck in the TradFi owned by elderly that are proportionately less digital literate. They want to invest in the high-yield DeFi but are struggling with the user experience of web3. To make web3 inclusive for everyone, we need to onboard to the web3 wallet. Account abstration is the funnel for onboarding the masses to the web3 space, and we are here to help.
+
+### Fury Grow
+
+Turn green into gold! Fury Grow encourages users to lower carbon emissions by planting trees when users engage in activities that reduce carbon emissions. A new plant is planted when Plant NFTs are Adopted on our platform.
+
+- Plant Adoption: Users can browse and select available plants for adoption
+- Carbon Credit Generation: Users earn simulated carbon credits for adopting plants.
+- Nurturing and Monitoring (Simulated): Users receive simulated updates on their adopted plant’s growth progress.
+- User Dashboard: Users can view their adopted plant(s), earned carbon credits, and token balance.
+- UI/UX: A simple and intuitive user interface for the landing page, plant adoption, and user dashboard.
 
 ## Demo Video:
 
-[Youtube](https://youtu.be/WyOZ8mxBPsE?si=FDhqrmMnzhqd8WNE)
+#### Fury Wallet - Account Abstration Demo
+
+---
+
+[<img width="220" alt="diagram flow of fury" src="./ui_assets/fury_wallet.png">](https://www.youtube.com/watch?v=TkgNQpYZ2W0&list=PLZQCAgLa_FYlVp6OeTsbSYm0PvJBTRGVU)
+
+<!-- [Fury Wallet - Account Abstration Demo](https://www.youtube.com/watch?v=TkgNQpYZ2W0&list=PLZQCAgLa_FYlVp6OeTsbSYm0PvJBTRGVU) -->
+
+#### Fury Grow - Regenerative Finance Demo
+
+---
+
+[<img width="220" alt="diagram flow of fury" src="./ui_assets/fury_grow.png">](https://www.youtube.com/watch?v=m1jKw-8RORQ&list=PLZQCAgLa_FYlVp6OeTsbSYm0PvJBTRGVU&index=2)
+
+<!-- [Fury Wallet - Regenerative Finance Demo](https://www.youtube.com/watch?v=m1jKw-8RORQ&list=PLZQCAgLa_FYlVp6OeTsbSYm0PvJBTRGVU&index=2) -->
 
 ## Architecture diagram
 
-<img width="2207" alt="diagram flow of fury" src="https://github.com/fury-eth-hacks/0xfury/assets/33903086/974a7a40-72a1-47e6-b420-39e4a160b9ec">
+<img width="2207" alt="diagram flow of fury" src="./ui_assets/Architecture-diagram.png">
 
 ## Getting Started
 
@@ -22,8 +48,7 @@ Most of the wealth is stuck in the TradFi owned by our aunties and uncles. They 
 2. yarn
 3. cp .env.example .env
 4. Fill in REACT_APP_GOOGLE_ID_CLIENT
-5. yarn start
-   <@Dimas: anything to add>
+5. yarn start/npm run dev
 
 ### Setup progresive web appp
 
@@ -35,19 +60,20 @@ Most of the wealth is stuck in the TradFi owned by our aunties and uncles. They 
 6. yarn global add serve (if you not installed it yet)
 7. npx serve -s build
 8. you should see pop up message to install the app.
-   <@Dimas: anything to add>
 
 ## Information
 
 - Created at: [Sol Hyperdrive 2023 Global Hackathon](https://solana.com/hyperdrive)
-- Slides: [Google slides](https://docs.google.com/presentation/d/e/2PACX-1vQTv2Pq8YrUmt_tHP28IabxOO_XUQ-aGsKbqPAhYn2x0G84WQdvWJAF9MdE24jVoaHK34nVSmku3N_z/pub?start=false&loop=false&delayms=3000&slide=id.p)
+- Presentation deck: [Fury](https://docs.google.com/presentation/d/e/2PACX-1vQTv2Pq8YrUmt_tHP28IabxOO_XUQ-aGsKbqPAhYn2x0G84WQdvWJAF9MdE24jVoaHK34nVSmku3N_z/pub?start=false&loop=false&delayms=3000&slide=id.p)
 - Figma: [Mockups, wireframes, and logic flow](https://www.figma.com/file/wDWskcAL1KRfD2eGzEnQS8/ETH-Hackathon-2023?type=design&mode=design)
 - Github: [Repo](https://github.com/zihanlim/0xfury_Hyperdrive_SOL)
 - Contact: [Twitter](https://twitter.com/0xteamfury)
 
 ## Future development
 
-- Resolve bug deploying smart contract to Mumbai with Biconomy SDK.
-- Deploy the AA smart contract to Mantle network
-- Social recovery, their family members can setup recovery conditions
-- Setup gas tank and paymaster for their family.
+- Implement support for multiple Solana networks, such as Devnet and Testnet. This will allow users to test and deploy their wallets on different networks before using them on the mainnet.
+- Develop a mobile app for the wallet, making it more accessible to users. This will make it easier for users to manage their wallets and interact with Solana dApps on the go.
+- Integrate with popular Solana dApps and marketplaces. This will allow users to easily manage their assets and interact with other Solana users and projects.
+- Add support for new features, such as social recovery and multi-signature transactions. This will make the wallet more secure and flexible for users.
+  Improve the security and performance of the wallet. This will make it more reliable and trustworthy for users.
+- Build a strong community around the wallet, providing support and education to users. This will help to ensure that the wallet is adopted by a wider range of users and that they are able to use it safely and effectively.
