@@ -39,10 +39,10 @@ Most of the wealth is stuck in the TradFi owned by our aunties and uncles. They 
 
 ## Information
 
-- Created at: [ETH SG 2023 Hackathon](https://www.ethereumsingapore.com/hackathon)
-- Slides: [Google slides](https://docs.google.com/presentation/d/1EVtZUIub5AwYhDRt5PEAKLbiavnI4_3Qu8yKORiUfh0/edit?usp=sharing)
+- Created at: [Sol Hyperdrive 2023 Global Hackathon](https://solana.com/hyperdrive)
+- Slides: [Google slides](https://docs.google.com/presentation/d/e/2PACX-1vQTv2Pq8YrUmt_tHP28IabxOO_XUQ-aGsKbqPAhYn2x0G84WQdvWJAF9MdE24jVoaHK34nVSmku3N_z/pub?start=false&loop=false&delayms=3000&slide=id.p)
 - Figma: [Mockups, wireframes, and logic flow](https://www.figma.com/file/wDWskcAL1KRfD2eGzEnQS8/ETH-Hackathon-2023?type=design&mode=design)
-- Github: [Repo](https://github.com/fury-eth-hacks/0xfury)
+- Github: [Repo](https://github.com/zihanlim/0xfury_Hyperdrive_SOL)
 - Contact: [Twitter](https://twitter.com/0xteamfury)
 
 ## Future development
