@@ -34,33 +34,6 @@ Turn green into gold! Fury Grow encourages users to lower carbon emissions by pl
 
 <!-- [Fury Wallet - Regenerative Finance Demo](https://www.youtube.com/watch?v=m1jKw-8RORQ&list=PLZQCAgLa_FYlVp6OeTsbSYm0PvJBTRGVU&index=2) -->
 
-## Architecture diagram
-
-<img width="2207" alt="diagram flow of fury" src="./ui_assets/Architecture-diagram.png">
-
-## Getting Started
-
-## Frontend Setup
-
-### Setup development environment
-
-1. cd frontend folder
-2. yarn
-3. cp .env.example .env
-4. Fill in REACT_APP_GOOGLE_ID_CLIENT
-5. yarn start/npm run dev
-
-### Setup progresive web appp
-
-1. cd frontend folder
-2. yarn
-3. cp .env.example .env
-4. Fill in REACT_APP_GOOGLE_ID_CLIENT
-5. yarn build
-6. yarn global add serve (if you not installed it yet)
-7. npx serve -s build
-8. you should see pop up message to install the app.
-
 ## Information
 
 - Created at: [Sol Hyperdrive 2023 Global Hackathon](https://solana.com/hyperdrive)
@@ -77,3 +50,30 @@ Turn green into gold! Fury Grow encourages users to lower carbon emissions by pl
 - Add support for new features, such as social recovery and multi-signature transactions. This will make the wallet more secure and flexible for users.
   Improve the security and performance of the wallet. This will make it more reliable and trustworthy for users.
 - Build a strong community around the wallet, providing support and education to users. This will help to ensure that the wallet is adopted by a wider range of users and that they are able to use it safely and effectively.
+
+## Architecture diagram
+
+<img width="2207" alt="diagram flow of fury" src="./ui_assets/Architecture-diagram.png">
+
+## Getting Started
+
+### Frontend Setup
+
+#### Setup development environment
+
+1. cd frontend folder
+2. yarn
+3. cp .env.example .env
+4. Fill in REACT_APP_GOOGLE_ID_CLIENT
+5. yarn start/npm run dev
+
+#### Setup progresive web appp
+
+1. cd frontend folder
+2. yarn
+3. cp .env.example .env
+4. Fill in REACT_APP_GOOGLE_ID_CLIENT
+5. yarn build
+6. yarn global add serve (if you not installed it yet)
+7. npx serve -s build
+8. you should see pop up message to install the app.
