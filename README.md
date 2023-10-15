@@ -20,7 +20,7 @@ Turn green into gold! Fury Grow encourages users to lower carbon emissions by pl
 
 #### Fury Wallet - App Promotional Demo Walkthrough
 
-[<img width="220" alt="diagram flow of fury" src="./ui_assets/fury_app-walkthrough.png">](https://youtu.be/jaaLMZQyZJM?si=y5_QWSEHbaZLPFrY)
+[<img width="220" alt="diagram flow of fury" src="./ui_assets/fury_app.png">](https://youtu.be/jaaLMZQyZJM?si=y5_QWSEHbaZLPFrY)
 
 #### Fury Wallet - Account Abstration Demo
 
