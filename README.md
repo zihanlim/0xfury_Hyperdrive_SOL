@@ -4,7 +4,7 @@
 
 ### Fury Wallet
 
-Most of the wealth is stuck in the TradFi owned by elderly that are proportionately less digital literate. They want to invest in the high-yield DeFi but are struggling with the user experience of web3. To make web3 inclusive for everyone, we need to onboard to the web3 wallet. Account abstration is the funnel for onboarding the masses to the web3 space, and we are here to help.
+Most of the wealth is stuck in the TradFi owned by elderly that are proportionately less digital literate. They want to invest in the high-yield DeFi but are struggling with the user experience of web3. We believe that account abstraction is the key to unlocking mass adoption. By simplifying the user experience and providing intuitive tools for managing web3 wallets, we can empower everyone to seamlessly navigate the DeFi landscape.
 
 ### Fury Grow
 
@@ -17,6 +17,10 @@ Turn green into gold! Fury Grow encourages users to lower carbon emissions by pl
 - UI/UX: A simple and intuitive user interface for the landing page, plant adoption, and user dashboard.
 
 ## Demo Video:
+
+#### Fury Wallet - App Promotional Demo Walkthrough
+
+[<img width="220" alt="diagram flow of fury" src="./ui_assets/fury_app-walkthrough.png">](https://youtu.be/jaaLMZQyZJM?si=y5_QWSEHbaZLPFrY)
 
 #### Fury Wallet - Account Abstration Demo
 
@@ -37,8 +41,9 @@ Turn green into gold! Fury Grow encourages users to lower carbon emissions by pl
 ## Information
 
 - Created at: [Sol Hyperdrive 2023 Global Hackathon](https://solana.com/hyperdrive)
-- Presentation deck: [Fury](https://docs.google.com/presentation/d/e/2PACX-1vQTv2Pq8YrUmt_tHP28IabxOO_XUQ-aGsKbqPAhYn2x0G84WQdvWJAF9MdE24jVoaHK34nVSmku3N_z/pub?start=false&loop=false&delayms=3000&slide=id.p)
-- Figma: [Mockups, wireframes, and logic flow](https://www.figma.com/file/wDWskcAL1KRfD2eGzEnQS8/ETH-Hackathon-2023?type=design&mode=design)
+- Presentation deck: [Fury](https://docs.google.com/presentation/d/e/2PACX-1vQTv2Pq8YrUmt_tHP28IabxOO_XUQ-aGsKbqPAhYn2x0G84WQdvWJAF9MdE24jVoaHK34nVSmku3N_z/pub)
+- App Demo: [Fury App Walkthrough](https://youtu.be/jaaLMZQyZJM?si=y5_QWSEHbaZLPFrY)
+- Figma: [Mockups, wireframes, and logic flow](https://www.figma.com/file/wDWskcAL1KRfD2eGzEnQS8/SOL-Hackathon-2023)
 - Github: [Repo](https://github.com/zihanlim/0xfury_Hyperdrive_SOL)
 - Contact: [Twitter](https://twitter.com/0xteamfury)
 
